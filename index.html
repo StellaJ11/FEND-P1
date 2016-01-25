@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 	<head>
@@ -9,16 +8,16 @@
 		<script src="js/jquery-1.11.3.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/custom.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="fonts/fonts.css">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/custom.css">
 	</head>
 
 	<body>
 		<main>
 			<div class="container">
-				<div class="row">
+				<div class="row header">
 					<div class="col-md-6 text-left" ><a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank"><img class="img-responsive img-header" src="images/udacity-logo.png" alt="Udacity logo"></a>
 					</div>
 					<div class="col-md-6 text-right uppercase">
@@ -26,21 +25,18 @@
 						<h3 class="description">Front-end Ninja</h3>
 					</div>
 				</div>
-
-
-				<div class="row about-me" >
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="about-text"><span class="about-text-heavy">Hey there!</span><br>My name is Stella Jiang. I am originally from China and have been in the US for more than 2 years! I live in Brooklyn now, which is a pretty cool area of New York. I love every minute of the FEND program and hope to <i>build awesome websites</i>by myself soon!</div>
-							</div>
-							<div class="col-md-6 about-element">
-								<img class="img-responsive" src="images/web.jpg" alt="A picture of Roberto Guiotto, smiling.">
-							</div>
+				
+				<div class="container-fluid">
+					<div class="row about-me">
+						<div class="col-md-6">
+							<div class="about-text"><span class="about-text-heavy">Hey there!</span><br>My name is Stella Jiang. I am originally from China and have been in the US for more than 2 years! I live in Brooklyn now, which is a pretty cool area of New York. I love every minute of the FEND program and hope to <i>build awesome websites</i>by myself soon!</div>
+						</div>
+						<div class="col-md-6 about-image">
+							<img class="img-responsive" src="images/web.jpg"  srcset="images/web_medium.jpg" alt="An image of a laptop with a cup of coffee on the side">
 						</div>
 					</div>
 				</div>
-
+				 
 				<div class="row">
 					<div class="col-md-12">
 						<h2>Featured Work</h2>
@@ -48,17 +44,17 @@
 				</div>
 				<div class="row portfolio">
 					<div class="col-md-4 portfolio-items text-center">
-						<img class="img-responsive portfolio-item" src="images/appify.jpg" data-toggle="modal" data-target="#myModal1" alt="An image of a laptop with a cup of coffee on the side">
+						<img class="img-responsive portfolio-item" src="images/appify.jpg" srcset="images/appify_medium.jpg" data-toggle="modal" data-target="#myModal1" alt="An image of a laptop with a cup of coffee on the side">
 						<h3 class="portfolio-title">Appify</h3>
 						<p class="portfolio-link"><a href="http://www.github.com" target="_blank">View project</a></p>
 					</div>
 					<div class="col-md-4 portfolio-items text-center">
-						<img class="img-responsive portfolio-item" src="images/nature.jpg" data-toggle="modal" data-target="#myModal2" alt="A picture of a swan swimming on a lake">
+						<img class="img-responsive portfolio-item" src="images/nature.jpg" srcset="images/nature_medium.jpg" data-toggle="modal" data-target="#myModal2" alt="A picture of a swan swimming on a lake">
 						<h3 class="portfolio-title">Nature</h3>
 						<p class="portfolio-link"><a href="http://www.github.com" target="_blank">View project</a></p>
 					</div>
 					<div class="col-md-4 portfolio-items text-center">
-						<img class="img-responsive portfolio-item" src="images/bokeh.jpg" data-toggle="modal" data-target="#myModal3" 
+						<img class="img-responsive portfolio-item" src="images/bokeh.jpg" srcset="images/bokeh_medium.jpg" data-toggle="modal" data-target="#myModal3" 
 						alt="An awesome bokeh image">
 						<h3 class="portfolio-title">Bokeh</h3>
 						<p class="portfolio-link"><a href="http://www.github.com" target="_blank">View project</a></p>
@@ -72,22 +68,22 @@
 				<div class="row udacious-orange">
 					<div class="col-md-12">
 						<div class="container">
-							<div class="row">
-								<div class="col-md-6 col-sm-6 get-in-touch footer">
+							<div class="row get-in-touch text-center">
+								<div class="col-md-6 col-sm-6">
 									<p class="footer-text"> &copy; 2016 Stella Jiang - Made with <span class="glyphicon glyphicon-heart"></span> in Brooklyn, New York</p>
 								</div>
-								<div class="col-md-6 col-sm-6 get-in-touch text-right">
+								<div class="col-md-6 col-sm-6">
 									<p class="footer-text">Let's keep in touch:
 										<a href="mailto:stella0101kong@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>
 										<a href="https://www.facebook.com/stella.kong.104" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
 										<a href="https://twitter.com/sjiang_" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
 										<a href="https://www.linkedin.com/in/stellajiang1" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
-									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 		</footer>
 
 		<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
@@ -106,7 +102,7 @@
 						</div>
 					</div>
 					<div class="modal-body text-center">
-						<img class="img-responsive" src="images/appify.jpg" alt="An image of a laptop with a cup of coffee on the side">
+						<img class="img-responsive" src="images/appify.jpg" srcset="images/appify_medium.jpg" alt="An image of a laptop with a cup of coffee on the side">
 						<p class="text-modal">Appify is a noun meaning “to create or modify an existing service as to make an application of it which in turn can be used in a larger application.</p>
 					</div>
 				</div>
@@ -129,7 +125,8 @@
 						</div>
 					</div>
 					<div class="modal-body text-center">
-						<img class="img-responsive" src="images/nature.jpg" alt="A picture of a swan swimming on a lake">
+						<img class="img-responsive" src="images/nature.jpg" srcset="images/nature_medium.jpg" 
+						alt="A picture of a swan swimming on a lake">
 						<p class="text-modal">Swans are birds of the family Anatidae within the genus Cygnus. </p>
 					</div>
 				</div>
@@ -152,7 +149,7 @@
 						</div>
 					</div>
 					<div class="modal-body text-center">
-						<img class="img-responsive" src="images/bokeh.jpg" alt="An awesome bokeh image">
+						<img class="img-responsive" src="images/bokeh.jpg" srcset="images/bokeh_medium.jpg" alt="An awesome bokeh image">
 						<p class="text-modal">In photography, bokeh is the aesthetic quality of the blur produced in the out-of-focus parts of an image produced by a lens. </p>
 					</div>
 				</div>
