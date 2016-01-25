@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Stella Jiang - FEND Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+	<!-- Header section  -->
+	<div class="container">
+		<div class="row header">
+		<div class="col-md-6 text-left" ><a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001" target="_blank"><img class="img-responsive img-header" src="images/udacity-logo.png" alt="Udacity logo"></a>
+			</div>
+			<div class="col-md-6 text-right uppercase">
+				<h1 class="name">Stella Jiang</h1>
+				<h3 class="description">Front-end Ninja</h3>
+			</div>
+		</div>
+
+		<!-- About section  -->
+
+		<div class="row about-image" >
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="about-text"><span class="about-text-heavy">Hey there!</span><br>My name is Stella Jiang. I am originally from China and have been in the US for more than 2 years! I live in Brooklyn now, which is a pretty cool area of New York. I love every minute of the FEND program and hope to <i>build awesome websites</i>by myself soon!</div>
+					</div>
+					<div class="col-md-6 about-element">
+						<img class="img-responsive" src="images/web.jpg" alt="A picture of Roberto Guiotto, smiling.">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Featured Work section (Modals are at the bottom of the code.) -->
+
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Featured Work</h2>
+			</div>
+		</div>
+		<div class="row portfolio">
+			<div class="col-md-4 portfolio-items text-center">
+				<img class="img-responsive portfolio-item" src="images/appify.jpg" data-toggle="modal" data-target="#myModal1" alt="An image of a laptop with a cup of coffee on the side">
+				<h3 class="portfolio-title">Appify</h3>
+				<p class="portfolio-link"><a href="http://www.github.com" target="_blank">View project</a></p>
+			</div>
+			<div class="col-md-4 portfolio-items text-center">
+				<img class="img-responsive portfolio-item" src="images/nature.jpg" data-toggle="modal" data-target="#myModal2" alt="A picture of a swan swimming on a lake">
+				<h3 class="portfolio-title">Nature</h3>
+				<p class="portfolio-link"><a href="http://www.github.com" target="_blank">View project</a></p>
+			</div>
+			<div class="col-md-4 portfolio-items text-center">
+				<img class="img-responsive portfolio-item" src="images/bokeh.jpg" data-toggle="modal" data-target="#myModal3" 
+				alt="An awesome bokeh image">
+				<h3 class="portfolio-title">Bokeh</h3>
+				<p class="portfolio-link"><a href="http://www.github.com" target="_blank">View project</a></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Creating an orange 100% width background for the footer  -->
+
+	<div class="container-fluid">
+		<div class="row udacious-orange">
+			<div class="col-md-12">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 get-in-touch footer">
+							<p class="footer-text"> &copy; 2016 Stella Jiang - Made with <span class="glyphicon glyphicon-heart"></span></a> in Brooklyn, New York</p>
+						</div>
+						<div class="col-md-6 col-sm-6 get-in-touch text-right">
+							<p class="footer-text">Let's keep in touch:
+								<a href="mailto:stella0101kong@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>
+								<a href="https://www.facebook.com/stella.kong.104" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+								<a href="https://twitter.com/sjiang_" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+								<a href="https://www.linkedin.com/in/stellajiang1" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- START Modal -->
+
+		<!-- Modal #1 -->
+		<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="row">
+							<div class="col-md-12 text-right">
+								<button type="button" class="close-button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times fa-lg"></i></span></button>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<h4 class="modal-title" id="myModalLabel1">Opensymbol</h4>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/opensymbol-570.jpg" alt="A preview of the Opensymbol website">
+						<p class="text-modal">Opensymbol is the first italian CRM company. I took part in the visual design and HTML/CSS development of the website, which was built with Wordpress. The company was looking for a way to emphasize its team, which in the end has been chosen as the main graphical subject for the website. <a href="http://www.opensymbol.it" target="_blank">www.opensymbol.it</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal #2-->
+		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="row">
+							<div class="col-md-12 text-right">
+								<button type="button" class="close-button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times fa-lg"></i></span></button>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<h4 class="modal-title" id="myModalLabel2">Macreport</h4>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/macreport-570.jpg" alt="A preview of the Macreport website">
+						<p class="text-modal">Macreport serves as a B2C touchpoint for Attiva Spa, a leading technology wholesaler based in Italy. Though not yet responsive, the project was really challenging since it required to accomodate a lot of information in the product details section. My role in the team was the visual design of the platform. <a href="http://www.macreport.it" target="_blank">www.macreport.it</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal #3-->
+		<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="row">
+							<div class="col-md-12 text-right">
+								<button type="button" class="close-button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times fa-lg"></i></span></button>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<h4 class="modal-title" id="myModalLabel3">Euroventilatori</h4>
+							</div>
+						</div>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/euroventilatori-570.jpg" alt="A preview of the Euroventilatori website">
+						<p class="text-modal">Entirely built on Microsoft technologies (ASP/.NET), Euroventilatori's website was recently reworked from scratch. I was in charge for the whole design process (concept, wireframing, web design) and for the copywriting in Italian language. <a href="http://www.euroventilatori-int.com" target="_blank">www.euroventilatori-int.com</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- END Modal -->
+
+	</body>
+	</html>
